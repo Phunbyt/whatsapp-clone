@@ -1,6 +1,5 @@
 import React, { useState, useEffect,  } from "react";
 import { Avatar, IconButton } from "@material-ui/core";
-import ChatIcon from "@material-ui/icons/Chat";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 import { AttachFile, InsertEmoticon, Mic, SearchOutlined } from "@material-ui/icons/";
 import {useParams} from 'react-router-dom'

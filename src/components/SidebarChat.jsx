@@ -3,14 +3,6 @@ import { Avatar } from '@material-ui/core'
 import './SidebarChat.css'
 import {  Link } from "react-router-dom";
 
-// echo "# whatsapp-clone" >> README.md
-// git init
-// git add README.md
-// git commit -m "first commit"
-// git branch -M main
-// git remote add origin https://github.com/Phunbyt/whatsapp-clone.git
-// git push -u origin main
-
 import db from '../firebase'
 const SidebarChat = ({ addNewChat, name, id }) => {
     const [seed, setSeed] = useState('')
