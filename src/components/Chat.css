@@ -1,0 +1,96 @@
+.chat{
+    flex: 0.65;
+    display:flex;
+flex-direction: column;
+}
+
+.chat__header{
+    padding: 20px;
+    display:flex;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+}
+
+.chat__headerInfo{
+    flex: 1;
+    padding-left: 20px;
+}
+
+.chat__headerInfo > h3{
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+.chat__headerInfo > p{
+    color: gray;
+}
+
+.chat__headerRight{
+    display:flex;
+    justify-content: space-between;
+    min-width: 100px;
+}
+
+.chat__body{
+    flex: 1;
+    background: url('https://cdn.wallpapersafari.com/54/0/HluF7g.jpg');
+    background-repeat: repeat;
+    overflow: scroll;
+    background-position: center;
+    padding:30px;
+}
+
+.chat__message{
+    position: relative;
+    font-size: 1rem;
+    border-radius: 10px;
+    width:fit-content;
+    padding: 10px;
+    background: #fff;
+    margin-bottom: 30px;
+}
+
+.chat__name{
+    position:absolute;
+    font-size: xx-small;
+    font-weight: 800;
+    top: -15px;
+}
+
+.chat__timestamp{
+    font-size: xx-small;
+    margin-left: 10px;
+}
+
+.chat__receiver{
+    margin-left: auto;
+    background:#dcf8c9;
+}
+
+.chat__footer{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    height:62px;
+    border-top: 1px solid lightgrey;
+}
+
+.chat__footer > form{
+    display:flex;
+    flex: 1;
+}
+.chat__footer > form > input{
+border-radius: 30px;
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.chat__footer > form > button{
+
+    display: none;
+}
+
+.chat__footer .MuiSvgIcon-root{
+    color: gray;
+    padding: 10px;
+}
